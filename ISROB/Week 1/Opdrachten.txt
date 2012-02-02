@@ -1,0 +1,13 @@
+2
+b) Zwakker
+c) Zwakker
+
+3
+b) Zwakker dan 1x 330
+c) Zwakker
+d) 660 Ohm
+
+4)
+b) Zwakker
+c) Feller
+d) 1/(1/330 + 1/330)=165
