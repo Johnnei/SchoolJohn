@@ -1,0 +1,21 @@
+#BlueJ package file
+package.editor.height=237
+package.editor.width=367
+package.editor.x=684
+package.editor.y=231
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+project.charset=windows-1252
+target1.editor.height=782
+target1.editor.width=1160
+target1.editor.x=-4
+target1.editor.y=10
+target1.height=50
+target1.name=Stoplicht
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=80
+target1.x=160
+target1.y=70

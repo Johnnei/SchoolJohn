@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=titel\ ISBN\ auteur
+comment0.target=Boek(java.lang.String,\ java.lang.String,\ Persoon)
+comment1.params=
+comment1.target=java.lang.String\ toString()
+numComments=2

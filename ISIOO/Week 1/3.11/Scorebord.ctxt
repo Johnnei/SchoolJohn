@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Scorebord()
+comment1.params=
+comment1.target=void\ verhoogPloeg1()
+comment2.params=
+comment2.target=void\ verhoogPloeg2()
+comment3.params=
+comment3.target=void\ verlaagPloeg1()
+comment4.params=
+comment4.target=void\ verlaagPloeg2()
+comment5.params=
+comment5.target=void\ print()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

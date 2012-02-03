@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Teller()
+comment1.params=
+comment1.target=void\ verhoog()
+comment2.params=
+comment2.target=void\ verlaag()
+comment3.params=waarde
+comment3.target=void\ setWaarde(int)
+comment4.params=
+comment4.target=int\ getWaarde()
+numComments=5

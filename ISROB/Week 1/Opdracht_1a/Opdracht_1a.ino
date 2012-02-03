@@ -8,8 +8,8 @@
 void setup() {                
   // initialize the digital pin as an output.
   // Pin 13 has an LED connected on most Arduino boards:
-  pinMode(9, OUTPUT);     
-  pinMode(13, OUTPUT);
+  pinMode(9, OUTPUT);   //Led on the mainboard 
+  pinMode(13, OUTPUT); //Led plugged in with 165, 330, 10K Ohm Resistance
 }
 
 void loop() {

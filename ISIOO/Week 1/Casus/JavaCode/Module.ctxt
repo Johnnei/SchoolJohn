@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=st\ code\ credits
+comment0.target=Module(Student,\ java.lang.String,\ int)
+comment1.params=d
+comment1.target=void\ setResultaat(double)
+comment2.params=
+comment2.target=java.lang.String\ getCode()
+comment3.params=
+comment3.target=double\ getResultaat()
+comment4.params=
+comment4.target=int\ getCredits()
+comment5.params=
+comment5.target=void\ print()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7
