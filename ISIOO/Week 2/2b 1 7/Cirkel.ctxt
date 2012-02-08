@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=straal
+comment0.target=Cirkel(double)
+comment1.params=d
+comment1.target=void\ setStraal(double)
+comment1.text=Setters
+comment2.params=
+comment2.target=double\ getStraal()
+comment2.text=Getters
+comment3.params=
+comment3.target=double\ getOmtrek()
+comment4.params=
+comment4.target=double\ getOppervlakte()
+comment5.params=
+comment5.target=void\ print()
+numComments=6

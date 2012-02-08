@@ -1,0 +1,15 @@
+package week2;
+
+public class Persoon {
+	
+	public static void main(String[] args) {
+		Persoon[] pers = new Persoon[4];
+		pers[0] = new Persoon();
+		pers[1] = new Persoon();
+		pers[2] = new Persoon();
+		pers[3] = new Persoon();
+	}
+	
+	public Persoon(String naam, int leeftijd)
+
+}
