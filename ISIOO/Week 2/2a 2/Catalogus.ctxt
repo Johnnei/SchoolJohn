@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.params=
-comment0.target=Bestelling()
+comment0.target=Catalogus()
 comment1.params=a
 comment1.target=void\ voegToe(Artikel)
-comment2.params=
-comment2.target=void\ printFactuur()
+comment2.params=nr
+comment2.target=Artikel\ zoek(int)
 comment3.params=
-comment3.target=double\ berekenTotaal()
+comment3.target=void\ print()
 numComments=4
