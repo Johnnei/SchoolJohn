@@ -15,8 +15,8 @@ void setup() {
 void loop() {
   digitalWrite(9, LOW);   // set the LED on
   digitalWrite(13, HIGH);
-  delay(1000);              // wait for a second
+  delay(250);              // wait for a second
   digitalWrite(9, HIGH);    // set the LED off
   digitalWrite(13, LOW);
-  delay(1000);              // wait for a second
+  delay(250);              // wait for a second
 }

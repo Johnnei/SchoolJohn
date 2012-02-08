@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=naam\ stichtJaar\ ledenAantal
+comment0.target=Club(java.lang.String,\ int,\ int)
+comment1.params=
+comment1.target=java.lang.String\ getNaam()
+comment2.params=
+comment2.target=int\ getStichtingsJaar()
+comment3.params=
+comment3.target=int\ getAantalLeden()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5
