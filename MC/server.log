@@ -2776,3 +2776,22 @@ java.lang.NullPointerException
 2011-12-02 13:02:59 [INFO] Saving chunks
 2011-12-02 13:02:59 [INFO] Saving chunks
 2011-12-02 13:02:59 [INFO] Saving chunks
+2012-02-10 09:34:54 [INFO] Starting minecraft server version 1.0.1
+2012-02-10 09:34:54 [INFO] Loading properties
+2012-02-10 09:34:54 [INFO] Starting Minecraft server on *:27960
+2012-02-10 09:34:54 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2012-02-10 09:34:54 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2012-02-10 09:34:54 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2012-02-10 09:34:54 [WARNING] To change this, set "online-mode" to "true" in the server.settings file.
+2012-02-10 09:34:54 [INFO] Preparing level "FlatWorld"
+2012-02-10 09:34:54 [INFO] Default game type: 1
+2012-02-10 09:34:54 [INFO] Preparing start region for level 0
+2012-02-10 09:34:55 [INFO] Preparing spawn area: 52%
+2012-02-10 09:34:56 [INFO] Done (1731074292ns)! For help, type "help" or "?"
+2012-02-10 09:36:13 [INFO] Player [/127.0.0.1:5134] logged in with entity id 149 at (5.5, 61.62000000476837, -4.5)
+2012-02-10 09:38:48 [INFO] Player lost connection: disconnect.quitting
+2012-02-10 09:39:01 [INFO] CONSOLE: Stopping the server..
+2012-02-10 09:39:01 [INFO] Stopping server
+2012-02-10 09:39:01 [INFO] Saving chunks
+2012-02-10 09:39:01 [INFO] Saving chunks
+2012-02-10 09:39:01 [INFO] Saving chunks

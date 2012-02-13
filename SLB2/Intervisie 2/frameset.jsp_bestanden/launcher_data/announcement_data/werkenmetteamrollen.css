@@ -1,0 +1,555 @@
+Body {
+	font-family: Verdana, Arial, Sans-Serif;
+	font-weight: normal;
+	font-style: normal;
+	
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.offertebold {
+	line-height: 20px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.tekstblack{
+	color: #000000;
+}
+
+.tekstgrey{
+	color: #999;
+}
+
+.text-grey-small {
+	color: #AAAAAA;
+	font-size: 	10px;	
+}
+
+.offertetekst {
+	line-height: 20px;
+	font-size: 12px;
+	color: #666;
+}
+
+
+P, textfield, textarea, li {
+	line-height: 20px;
+	font-size: 12px;
+	color: #000000;
+}
+
+.vragenlijst{
+	line-height: 20px;
+	font-size: 12px;
+	color: #000000;
+}
+
+.Inleiding {
+	line-height: 24px;
+	font-size: 12px;
+	color: #222;
+}
+
+
+ul.tekst, ol.tekst {
+	line-height: 20px;
+	font-size: 12px;
+	color: #000000;
+}
+
+.teamrolbeschrijving {
+	line-height: 20px;
+	font-size: 12px;
+	color: #000000;
+	margin: 8px;
+	display:none;
+	height: 120px;
+}
+
+H1 {
+	font: 1.9em/normal 'Lucida Grande', sans-serif;
+	color:#d90e5f;
+	letter-spacing: 0.02em;
+	margin-top: 30px;
+	margin-bottom: 2px;	
+}
+
+
+H1.starter {
+	margin-top: 10px;
+	margin-bottom: 2px;	
+}
+
+H1.starterinTD {
+	margin-top: 0px;
+	margin-bottom: 2px;	
+}
+
+
+
+H2{
+	font: 1.0em 'Lucida Grande',sans-serif;
+	font-weight: bold;
+	margin-top: 4px;
+	margin-bottom: 0px;
+}
+
+H2.geaccentueerd{
+	padding: 4px; 
+	background-color: #e7e2da;
+}
+
+
+H2.zelfstandig{
+	margin-top: 30px; 
+}
+
+
+H3{
+	font: 0.8em 'Lucida Grande',sans-serif;
+	font-weight: bold;
+}
+
+H4{
+	color:#d90e5f;
+	font-weight: bold;
+}
+
+.inleidende_paragraaf{
+	margin-top: 4px;
+}
+
+.p_geaccentueerd{
+	padding: 4px; 
+	background-color: #e7e2da;
+	font-weight: bold;
+}
+
+.riserood_bold{
+	color:#d90e5f;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+a.riserood_bold {
+	color:#d90e5f;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a.riserood_bold:Hover {
+	text-decoration: underline;
+}
+
+.sitenaam {
+	font: 2.2em/normal 'Lucida Grande', sans-serif;
+	color:#ade500;
+	letter-spacing: 0.18em;
+}
+.sitesubnaam {
+	font: 1.2em/normal 'Lucida Grande', sans-serif;
+	color:#CCCCCC;
+	letter-spacing: 0.06em;
+	font-weight: bold;
+}
+
+a {
+	color: #008af2;
+	text-decoration: none;	
+}
+
+a:Hover {
+	text-decoration: underline;	
+}
+
+a.tagcloud {
+	text-decoration: none;
+}
+a.tagcloud:Hover {
+	text-decoration: underline;
+}
+
+
+a.topmenu {
+	font-size: 9px;
+	font-weight: bold;
+	color:#999999;
+	text-decoration: none;
+}
+a.topmenu:Hover {
+	color:#d90e5f;
+	text-decoration: none;
+}
+
+
+a.menu {
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 14px;
+	color:#CC0000;
+	text-decoration: none;
+}
+a.menu:Hover {
+	text-decoration: underline;
+}
+
+.bottominfo {
+	line-height: 18px;
+	font-size: 11px;
+	color: #008af2;
+	letter-spacing: 0.02em;
+}
+a.bottominfo {
+	line-height: 18px;
+	font-size: 11px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+}
+a.bottominfo:Hover {
+	text-decoration: underline;	
+}
+
+
+a.infoblokBold {
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.infoblokBold:Hover {
+	text-decoration: underline;
+}
+a.infoblok {
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.infoblok:Hover {
+	text-decoration: underline;
+}
+
+
+.foutmelding{
+	color: #FF0000;	
+}
+
+#simpleTooltip { 
+	width:350px; 
+	padding: 7px; 
+	border: 1px solid #A6A7AB; 
+	background: #009EE1;
+	line-height: 20px;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+a.tooltip {	
+	text-decoration: none;
+	background: url(../images/icons/extrainfo.gif) no-repeat right; 
+	padding-right: 15px;
+/*	border-bottom: 1px dashed #33CCFF; */
+}
+a.tooltip:Hover {
+	color: #CCCCCC;
+	text-decoration: none;
+	background: url(../images/icons/extrainfo.gif) no-repeat right; 
+	padding-right: 15px;
+/*	border-bottom: 1px dashed #CCCCCC; */
+}
+
+
+
+.breadcrumpath {
+	color: #008af2;
+	line-height: 14px;
+	font-size: 11px;
+}
+a.breadcrumpath {
+	line-height: 14px;
+	font-size: 11px;
+	text-decoration: none;
+}
+a.breadcrumpath:Hover {
+	text-decoration: underline;
+}
+
+
+.msgbox {
+	background-color: #00CC33;
+	border: 1px solid #EEEEEE;
+	margin: 4px;
+	padding: 4px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.msgboxTD {
+	background-color: #00CC33;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+
+.table1 {
+	padding: 8px;
+	border-bottom:	thin solid #FFC49B;
+	border-left:	thin solid #FFC49B;
+	border-right:	thin solid #FFC49B;
+	border-top:		thin solid #FFC49B;
+	line-height: 20px;
+	font-size: 12px;
+}
+
+.talbe2 {
+	background-color: #FFFFF5;
+	border-bottom:	1px solid #EEEEEE;
+	border-left:	1px solid #EEEEEE;
+	border-right:	1px solid #EEEEEE;
+	border-top:		1px solid #EEEEEE;
+	margin: 4px;
+	padding: 4px;
+}
+
+.table3 {
+	padding: 4px;
+	border-bottom:	1px solid #F782B0;
+	border-left:	1px solid #F782B0;
+	border-right:	1px solid #F782B0;
+	border-top:		1px solid #F782B0;
+}
+
+
+
+
+.beheerWerkvormenTable1 {
+	background-color: #FFFFFF;
+	border-bottom:	1px solid #EEEEEE;
+	border-left:	1px solid #EEEEEE;
+	border-right:	1px solid #EEEEEE;
+	border-top:		1px solid #EEEEEE;
+	margin: 4px;
+	padding: 4px;
+	font-size:12px;
+}
+
+.beheerWerkvormenTable2 {
+	background-color: #D7EFFF;
+	border-bottom:	1px solid #EEEEEE;
+	border-left:	1px solid #EEEEEE;
+	border-right:	1px solid #EEEEEE;
+	border-top:		1px solid #EEEEEE;
+	margin: 4px;
+	padding: 4px;
+	font-size:12px;
+}
+
+.beheerWerkvormenTable3 {
+	padding: 8px;
+	border-bottom:	thin solid #FFC49B;
+	border-left:	thin solid #FFC49B;
+	border-right:	thin solid #FFC49B;
+	border-top:		thin solid #FFC49B;
+	font-size:		12px;
+}
+
+.tableWerkvormDisplay {
+	background-color: #FFFFF5;
+	border-bottom:	1px solid #EEEEEE;
+	border-left:	1px solid #EEEEEE;
+	border-right:	1px solid #EEEEEE;
+	border-top:		1px solid #EEEEEE;
+	margin: 		4px;
+	padding: 		4px;	
+	line-height: 	20px;
+	font-size: 		12px;
+	color: 			#666;
+}
+
+.talbeBGgeel {
+	background-color: #FFFFF5;
+	border-bottom:	1px solid #EEEEEE;
+	border-left:	1px solid #EEEEEE;
+	border-right:	1px solid #EEEEEE;
+	border-top:		1px solid #EEEEEE;
+	margin: 4px;
+	padding: 4px;
+}
+
+.tableWerkvormBasket {
+	background-color: #FFFFF5;
+	border-bottom:	1px solid #EEEEEE;
+	border-left:	1px solid #EEEEEE;
+	border-right:	1px solid #EEEEEE;
+	border-top:		1px solid #EEEEEE;
+	margin: 		4px;
+	padding: 		4px;	
+	line-height: 	20px;
+	font-size: 		10px;
+	color: 			#666;
+}
+
+.tableMiB {
+	border-bottom:	1px solid #EEEEEE;
+	border-left:	1px solid #EEEEEE;
+	border-right:	1px solid #EEEEEE;
+	border-top:		1px solid #EEEEEE;
+	padding: 		8px;
+}
+
+
+.table_vragenlijst {
+	padding: 4px;
+	border-bottom:	1px solid #F782B0;
+	border-left:	1px solid #F782B0;
+	border-right:	1px solid #F782B0;
+	border-top:		1px solid #F782B0;
+	line-height: 	20px;
+	font-size: 12px;
+	color: #666;
+}
+
+.bgRiseRood {
+	background-color: #d90e5f;
+	padding: 8px;
+	color:#FFFFFF;
+}
+
+
+
+.text-white {
+	color: #FFFFFF;
+}
+.text-grey-small {
+	color: #AAAAAA;
+	font-size: 	10px;	
+}
+
+.jquery-corner {
+	position: relative;
+}
+
+.copyright {
+	vertical-align: super;	
+}
+
+.msgboxTD {
+	background-color: #00CC33;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+
+
+.bgbrdoranje {
+	background-color: #FFFFF5;
+	border: 1px solid #EEEEEE;
+	margin: 4px;
+	padding: 4px;
+}
+
+/* the box on top of the box we wish to show - this one hide the second one 
+we set the height as 0.1 to avoid an IE bug when the height is 0.
+*/
+#cover1{ 
+	height: 0.1em;  
+	overflow:hidden;
+	visibility: hidden;
+}
+
+#cover2{ 
+	height: 0.1em;  
+	overflow:hidden;
+	visibility: hidden;
+}
+
+#cover3{ 
+	height: 0.1em;  
+	overflow:hidden;
+	visibility: hidden;
+}
+
+#cover4{ 
+	height: 0.1em;  
+	overflow:hidden;
+	visibility: hidden;
+}
+
+#cover5{ 
+	height: 0.1em;  
+	overflow:hidden;
+	visibility: hidden;
+}
+
+#cover6{ 
+	height: 0.1em;  
+	overflow:hidden;
+	visibility: hidden;
+}
+
+#cover7{ 
+	height: 0.1em;  
+	overflow:hidden;
+	visibility: hidden;
+}
+#cover8{ 
+	height: 0.1em;  
+	overflow:hidden;
+	visibility: hidden;
+}
+#cover9{ 
+	height: 0.1em;  
+	overflow:hidden;
+	visibility: hidden;
+}
+#cover10{ 
+	height: 0.1em;  
+	overflow:hidden;
+	visibility: hidden;
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------[ MAIN MENU SKIN ] */
+		.sf-menu {background: #dc006c url('/images/topmenu/bg_menufade.gif') repeat-x top;}
+		.sf-menu a {color: #ffffff; font-size: 12px; font-weight:bold; text-decoration: none;}
+		/*.sf-menu a, .sf-menu a:visited {color: #fff;}*/ /* visited pseudo selector so IE6 applies text colour*/
+		
+		.sf-menu li {/*background: #BDD2FF;*/}
+				
+/* ! */	.sf-menu li li {background: #dc006c url('/images/topmenu/bg_menufade.gif') repeat-x top;}
+/* ! */	.sf-menu li ul {}
+		
+		/*.sf-menu li li li {background: #9AAEDB;}*/
+		
+		.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active, .sf-menu li.current a
+		{color: #ffed00;text-decoration: none;}
+		
+		.sf-menu li.current li a {color: #ffffff;text-decoration: none;}
+		
+		.sf-menu li li:hover, .sf-menu li li.sfHover, .sf-menu li li a:focus, .sf-menu li li a:hover, .sf-menu li li a:active, .sf-menu li li.current a
+/* ! */	{color: #ffed00;text-decoration: none;}
+
+
+#floattopright{
+	float:right;
+}
+
+.tableTR2Q{
+	border: thin solid #A6A7AB; 
+}
+.tableTR2Q TD{
+	border: thin solid #EEE; 
+}
+.sumbitterug{
+	color:#FFF;
+	background-color:#dc006c;
+	
+}
