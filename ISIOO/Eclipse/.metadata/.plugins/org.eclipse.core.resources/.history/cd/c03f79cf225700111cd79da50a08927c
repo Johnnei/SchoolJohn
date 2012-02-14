@@ -1,0 +1,12 @@
+package com.opg3;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Persoon p1 = new Persoon();
+		Persoon p2 = new Persoon();
+		Werknemer w1 = new Werknemer();
+		Werknemer w2 = new Werknemer();
+	}
+
+}

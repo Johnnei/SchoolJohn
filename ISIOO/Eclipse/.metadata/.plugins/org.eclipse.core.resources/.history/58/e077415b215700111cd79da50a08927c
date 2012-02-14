@@ -1,0 +1,25 @@
+package com.john;
+
+public class Opgave1 {
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int sum = 0;
+		double avg = 0;
+		int max = 0;
+		int min = 100; //Maximale Waarde
+		
+		Random r = new Random();
+		for(int i = 0; i < 20000; i++) {
+			int j = r.nextInt(101);
+			if(j > max)
+				max = j;
+			if(j < min)
+				min = k;
+		}
+
+	}
+
+}

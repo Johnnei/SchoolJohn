@@ -1,0 +1,15 @@
+package com.opg2;
+
+public class Persoon {
+	private String naam;
+	private String[] emailadressen;
+	private int slot = 0;
+	
+	public Persoon(String s) {
+		naam = s;
+	}
+	
+	public void voegMailToe(String adres) {
+		emailadressen[slot++] = adres;
+	}
+}

@@ -1,0 +1,16 @@
+package com.opg2;
+
+public class Student extends Persoon {
+	
+	int nummer;
+	
+	public Student(int nummer, String naam, int lengte) {
+		super(naam, lengte);
+		this.nummer = nummer;
+	}
+	
+	public int getNummer() {
+		return nummer;
+	}
+
+}

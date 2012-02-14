@@ -1,0 +1,17 @@
+package com.opg2;
+
+public class Persoon {
+	
+	String naam;
+	int leeftijd;
+	
+	public Persoon(String s, int i) {
+		naam = s;
+		leeftijd = i;
+	}
+	
+	public void jarig() {
+		++leeftijd;
+	}
+
+}

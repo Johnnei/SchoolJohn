@@ -38,7 +38,7 @@ void voetgangerStoplicht() {
     digitalWrite(6, HIGH);
     delay(500);
   }
-  digitalWrite(6, HIGH);
+  digitalWrite(6, LOW);
   digitalWrite(7, HIGH);
 }
 
