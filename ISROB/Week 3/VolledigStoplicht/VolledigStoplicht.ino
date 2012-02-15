@@ -1,3 +1,5 @@
+int NOTE_C4 = 262;
+
 void setup() {                
   // initialize the digital pin as an output.
   // Pin 13 has an LED connected on most Arduino boards:
@@ -15,7 +17,11 @@ void stoplicht() {
   digitalWrite(10, LOW); //Red
   //Green 5 Sec
   digitalWrite(8, HIGH);
-  delay(5000);
+  delay(2000);
+  tone(4, NOTE_C4, 500);
+  delay(2500);
+  tone(4, NOTE_C4, 500);
+  delay(500);
   //Orange 1 Sec
   digitalWrite(8, LOW);
   digitalWrite(9, HIGH);
@@ -23,20 +29,35 @@ void stoplicht() {
   //Red 5 sec
   digitalWrite(9, LOW);
   digitalWrite(10, HIGH);
-  delay(5000);
+  delay(1000);
+  tone(4, NOTE_C4, 500);
+  delay(2500);
+  tone(4, NOTE_C4, 500);
+  delay(500);
 }
 
 void voetgangerStoplicht() {
   //Turn on both
-  digitalWrite(7, LOW);
   digitalWrite(6, HIGH);
+  digitalWrite(7, LOW);
   //30 Sec Delay
-  delay(30000);
+  for(int i = 0; i < 30; i++) {
+    tone(4, NOTE_C4, 500);
+    delay(500);
+    noTone(4);
+    delay(500);
+  }
   for(int i = 0; i < 7; i++) {
+    tone(4, NOTE_C4, 250);
     digitalWrite(6, LOW);
-    delay(500);
+    delay(250);
+    noTone(4);
+    delay(250);
+    tone(4, NOTE_C4, 250);
     digitalWrite(6, HIGH);
-    delay(500);
+    delay(250);
+    noTone(4);
+    delay(250);
   }
   digitalWrite(6, LOW);
   digitalWrite(7, HIGH);
@@ -44,5 +65,8 @@ void voetgangerStoplicht() {
 
 void loop() {
  stoplicht();
- voetgangerStoplicht();
+ int buttonState = digitalRead(5);
+ if(buttonState == HIGH) {
+   voetgangerStoplicht();
+ }
 }
