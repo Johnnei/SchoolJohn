@@ -12,9 +12,12 @@ public class Opgave1 {
 		int max = 0;
 		int min = 100; //Maximale Waarde
 		
+		int[] array = new int[20000];
+		
 		Random r = new Random();
 		for(int i = 0; i < 20000; i++) {
-			int j = r.nextInt(101);
+			array[i] = r.nextInt(101);
+			int j = array[i];
 			if(j > max)
 				max = j;
 			if(j < min)

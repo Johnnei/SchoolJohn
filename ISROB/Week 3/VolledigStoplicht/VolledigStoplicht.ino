@@ -22,18 +22,6 @@ void stoplicht() {
   delay(2500);
   tone(4, NOTE_C4, 500);
   delay(500);
-  //Orange 1 Sec
-  digitalWrite(8, LOW);
-  digitalWrite(9, HIGH);
-  delay(1000);
-  //Red 5 sec
-  digitalWrite(9, LOW);
-  digitalWrite(10, HIGH);
-  delay(1000);
-  tone(4, NOTE_C4, 500);
-  delay(2500);
-  tone(4, NOTE_C4, 500);
-  delay(500);
 }
 
 void voetgangerStoplicht() {
@@ -67,6 +55,18 @@ void loop() {
  stoplicht();
  int buttonState = digitalRead(5);
  if(buttonState == HIGH) {
-   voetgangerStoplicht();
+     //Orange 1 Sec
+    digitalWrite(8, LOW);
+    digitalWrite(9, HIGH);
+    delay(1000);
+    //Red 5 sec
+    digitalWrite(9, LOW);
+    digitalWrite(10, HIGH);
+    delay(1000);
+    tone(4, NOTE_C4, 500);
+    delay(2500);
+    tone(4, NOTE_C4, 500);
+    delay(500);
+    voetgangerStoplicht();
  }
 }

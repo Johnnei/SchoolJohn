@@ -1,0 +1,11 @@
+package com.opg1;
+
+import java.util.Random;
+
+public class Level {
+	
+	public static void main(String[] args) {
+		System.out.println((1 + new Random().nextInt(11)));
+	}
+
+}
