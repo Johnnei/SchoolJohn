@@ -1,0 +1,6 @@
+package opgave4a;
+
+public class Scherm {
+
+	ArrayList<Persoon> lijst;
+}

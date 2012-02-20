@@ -1,0 +1,30 @@
+package opgave5;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class GUI extends JFrame {
+	
+	private Winkel wkl = new Winkel();
+	private JTextField artiest = new JTextField();
+	private JTextField titel = new JTextField();
+	private JTextField voorraad = new JTextField();
+	
+	public GUI() {
+		
+		setLayout(new FlowLayout());
+		add(new JLabel("Artiest: "));
+		add(artiest);
+		add(new JLabel("Titel: "));
+		add(titel);
+		add(new JLabel("Voorraad: "));
+		add(voorraad);
+		JButton but = new JButton("Add");
+		but.addActionListener(this);
+	}
+
+}

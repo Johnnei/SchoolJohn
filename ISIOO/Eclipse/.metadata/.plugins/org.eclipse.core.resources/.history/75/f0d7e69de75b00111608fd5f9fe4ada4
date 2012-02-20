@@ -1,0 +1,9 @@
+package opgave2_1;
+
+public abstract class Optelbaar {
+	
+	private String naam;
+	
+	public abstract int add(int a, int b);
+
+}

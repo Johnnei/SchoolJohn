@@ -1,0 +1,14 @@
+package opgave4a;
+
+public class Persoon implements Benoembaar {
+
+	private String voornaam;
+	private String achternaam;
+	
+	@Override
+	public String geefVolledigeNaam() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,14 @@
+package opgave4a;
+
+import java.util.ArrayList;
+
+import javax.swing.JFrame;
+
+public class Scherm extends JFrame {
+
+	ArrayList<Persoon> lijst;
+	
+	public Scherm() {
+		lijst = new ArrayList<Persoon>();
+	}
+}

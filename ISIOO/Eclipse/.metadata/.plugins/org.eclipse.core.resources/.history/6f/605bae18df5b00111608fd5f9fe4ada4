@@ -1,0 +1,9 @@
+package opgave1;
+
+import java.util.ArrayList;;
+
+public class Gids {
+	
+	ArrayList<Programma> lijst = new ArrayList<Programma>();
+
+}

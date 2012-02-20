@@ -1,0 +1,9 @@
+package overerving;
+
+public class Serie extends Programma {
+	
+	public Serie(int nummer, String regis, String titel, String zender, int duur) {
+		
+	}
+
+}

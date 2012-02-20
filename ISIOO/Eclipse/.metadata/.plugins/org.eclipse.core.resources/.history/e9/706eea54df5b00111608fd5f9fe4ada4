@@ -1,0 +1,13 @@
+package opgave1;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Gids g = new Gids();
+		Programma p = new Programma("Shownieuws", "SBS6", 30);
+		g.voegToe(p);
+		p = new Serie(1, "Pietje", "Dr. House", "SBS6", 30);
+		p = new Talkshow("Fietbanden", "Pietje", "RTL8", "Pietje's lul uurtje", 60);
+	}
+
+}

@@ -1,0 +1,17 @@
+package opgave5;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+
+public class GUI extends JFrame {
+	
+	private Winkel wkl = new Winkel();
+	private JTextField artiest;
+	
+	public GUI() {
+		setLayout(new FlowLayout());
+		add(new JLabel("Artiest: "));
+	}
+
+}

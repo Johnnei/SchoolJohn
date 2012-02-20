@@ -1,0 +1,18 @@
+package opgave4a;
+
+import java.util.ArrayList;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class Scherm extends JFrame implements ActionListener {
+
+	ArrayList<Persoon> lijst;
+	JTextField[] invoer = new JTextField[2];
+	JLabel[] label = new JLabel[2];
+	
+	public Scherm() {
+		lijst = new ArrayList<Persoon>();
+	}
+}

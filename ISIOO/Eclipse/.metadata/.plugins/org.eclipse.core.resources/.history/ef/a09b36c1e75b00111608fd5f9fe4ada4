@@ -1,0 +1,13 @@
+package opgave2_1;
+
+public class Stopwatch implements Optelbaar {
+	
+	public Stopwatch() {
+		super("Stopwatch");
+	}
+	
+	public int add(int a, int b) {
+		return (a + b) % 60;
+	}
+
+}

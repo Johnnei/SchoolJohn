@@ -1,0 +1,10 @@
+package overerving;
+
+public class Talkshow extends Programma {
+	private String presentator;
+	private String onderwerp;
+	
+	public Talkshow(String subject, String pres, String zender, String titel, int duur) {
+		super(titel, zender, duur);
+	}
+}

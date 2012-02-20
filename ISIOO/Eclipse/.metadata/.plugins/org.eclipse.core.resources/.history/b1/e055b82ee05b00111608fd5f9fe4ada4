@@ -1,0 +1,11 @@
+package opgave2;
+
+public class Programma {
+	
+	private ArrayList<Optelbaar> lijst;
+	
+	public Programma() {
+		lijst = new ArrayList<Optelbaar>();
+	}
+
+}
