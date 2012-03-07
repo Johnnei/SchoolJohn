@@ -1,9 +1,0 @@
-package opgave2;
-
-public class Stopwatch implements Optelbaar {
-	
-	public int add(int a, int b) {
-		return (a + b) % 60;
-	}
-
-}

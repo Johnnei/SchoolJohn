@@ -1,9 +1,0 @@
-package overerving;
-
-public class Programma {
-	
-	private String titel;
-	private String zender;
-	private int duur;
-
-}

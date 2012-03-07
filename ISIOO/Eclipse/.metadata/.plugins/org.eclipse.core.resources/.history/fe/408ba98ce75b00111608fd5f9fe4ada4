@@ -1,7 +1,0 @@
-package opgave2_1;
-
-public abstract Optelbaar {
-	
-	public abstract int add(int a, int b);
-
-}

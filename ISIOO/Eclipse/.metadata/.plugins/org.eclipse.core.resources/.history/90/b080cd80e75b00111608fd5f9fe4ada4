@@ -1,7 +1,0 @@
-package opgave2_1;
-
-public interface Optelbaar {
-	
-	public int add(int a, int b);
-
-}

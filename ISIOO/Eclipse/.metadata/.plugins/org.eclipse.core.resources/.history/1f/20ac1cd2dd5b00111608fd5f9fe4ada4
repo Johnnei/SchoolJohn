@@ -1,9 +1,0 @@
-package opgave1;
-
-public class Main {
-	
-	public static void main(String[] args) {
-		Programma p = new Programma("Shownieuws", "SBS6", 30);
-	}
-
-}

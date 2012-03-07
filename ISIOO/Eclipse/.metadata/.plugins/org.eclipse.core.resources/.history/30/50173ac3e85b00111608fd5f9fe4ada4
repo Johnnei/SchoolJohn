@@ -1,5 +1,0 @@
-package opgave4a;
-
-public class Persoon implements Benoembaar {
-
-}
