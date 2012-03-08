@@ -1,6 +1,0 @@
-package deelA;
-
-public class Track {
-		private String titel;
-		private String duur;
-}

@@ -1,5 +1,0 @@
-package deelA;
-
-public class Overzicht extends JDialog {
-
-}
