@@ -1,0 +1,37 @@
+package deelA;
+
+import java.awt.Dimension;
+import java.awt.Frame;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class TrackDialog extends JDialog implements ActionListener {
+	
+	private JButton butTrack = new JButton("Add Track");
+	private JTextField trackTitel = new JTextField();
+	private JTextField trackDuur = new JTextField();
+	
+	public TrackDialog(Frame owner) {
+		super(owner, true);
+		trackTitel.setPreferredSize(new Dimension(300, 25));
+		trackDuur.setPreferredSize(new Dimension(100, 25));
+		butTrack.addActionListener(this);
+		add(new JLabel("Track Titel: "));
+		add(trackTitel);
+		add(new JLabel("Track Duur: "));
+		add(trackDuur);
+		add(butTrack);
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

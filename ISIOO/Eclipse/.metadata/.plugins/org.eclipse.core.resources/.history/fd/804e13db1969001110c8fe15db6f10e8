@@ -1,0 +1,22 @@
+package deelA;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JTextField;
+
+public class TrackDialog extends JDialog implements ActionListener {
+	
+	private JButton butTrack = new JButton("Add Track");
+	private JTextField trackTitel = new JTextField();
+	private JTextField trackDuur = new JTextField();
+
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

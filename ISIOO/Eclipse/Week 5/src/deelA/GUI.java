@@ -20,30 +20,27 @@ public class GUI extends JFrame implements ActionListener {
 	private JTextField artiest = new JTextField();
 	private JTextField titel = new JTextField();
 	private JTextField voorraad = new JTextField();
-	private JTextField trackTitel = new JTextField();
-	private JTextField trackDuur = new JTextField();
 	private JButton butCD = new JButton("Add CD");
-	private JButton butTrack = new JButton("Add Track");
 	private JButton clear = new JButton("Clear");
 	private JMenuBar menuBar = new JMenuBar();
 	private JMenu option = new JMenu("Opties");
 	private JMenuItem overzicht = new JMenuItem("Overzicht");
+	private JButton butTrack = new JButton("Add Track");
 	
 	public GUI() {
 		//FlowLayout Sizing
 		artiest.setPreferredSize(new Dimension(300, 25));
 		titel.setPreferredSize(new Dimension(300, 25));
 		voorraad.setPreferredSize(new Dimension(100, 25));
-		trackTitel.setPreferredSize(new Dimension(300, 25));
-		trackDuur.setPreferredSize(new Dimension(100, 25));
+
 		
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
 		//Action Handler
 		butCD.addActionListener(this);
-		butTrack.addActionListener(this);
 		clear.addActionListener(this);
 		overzicht.addActionListener(this);
+		butTrack.addActionListener(this);
 		
 		setPreferredSize(new Dimension(400, 300));
 		setLayout(new FlowLayout(FlowLayout.CENTER));
@@ -54,12 +51,8 @@ public class GUI extends JFrame implements ActionListener {
 		add(new JLabel("Voorraad: "));
 		add(voorraad);
 		add(butCD);
-		add(clear);
-		add(new JLabel("Track Titel: "));
-		add(trackTitel);
-		add(new JLabel("Track Duur: "));
-		add(trackDuur);
 		add(butTrack);
+		add(clear);
 		
 		//Menu
 		menuBar.add(option);
@@ -83,7 +76,10 @@ public class GUI extends JFrame implements ActionListener {
 			titel.setText("");
 			voorraad.setText("");
 		} else if (e.getSource().equals(butTrack)) {
-			wkl.addTrack(artiest.getText(), titel.getText(),trackTitel.getText(), trackDuur.getText());
+			TrackDialog td = new TrackDialog(this);
+			td.setVisible(true);
+			if(td.normalClose())
+				wkl.addTrack(artiest.getText(), titel.getText(),td.getTitel(), td.getDuur());
 		} else if (e.getSource().equals(overzicht)) {
 			Overzicht o = new Overzicht(this, wkl);
 			o.setVisible(true);
