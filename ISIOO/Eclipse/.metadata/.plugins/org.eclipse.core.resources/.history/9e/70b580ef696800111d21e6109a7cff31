@@ -1,0 +1,7 @@
+package deelA;
+
+import javax.swing.JDialog;
+
+public class Overzicht extends JDialog {
+
+}

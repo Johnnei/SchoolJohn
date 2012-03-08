@@ -1,0 +1,13 @@
+package deelA;
+
+import javax.swing.JDialog;
+
+public class Overzicht extends JDialog {
+	
+	
+	
+	public JDialog(Winkel w) {
+		
+	}
+	
+}

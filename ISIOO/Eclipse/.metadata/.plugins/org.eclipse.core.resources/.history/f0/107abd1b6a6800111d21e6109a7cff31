@@ -1,0 +1,15 @@
+package deelA;
+
+import java.awt.Dimension;
+
+import javax.swing.JDialog;
+
+public class Overzicht extends JDialog {
+	
+	
+	
+	public JDialog(Winkel w) {
+		setPreferredSize(new Dimension(300, 300));
+	}
+	
+}
