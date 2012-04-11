@@ -1,0 +1,156 @@
+.jobs .content{width:616px}
+.jobs .sidebar{width:200px}
+#jobSearch{background:#deebe8 url(../../g/searchbox/bg.gif) repeat-x;padding:8px 14px;color:#4b4b4b;height:46px;margin:0 0 16px;border:1px solid #c1d0cc}
+#jobSearch.large{height:70px}
+#jobSearch p{margin-bottom:6px}
+#jobSearch input[type="text"],#jobSearch select{margin-right:7px;vertical-align:bottom;padding:3px 5px 4px;border:1px solid #b1b1b1}
+#jobSearch select{padding:2px 2px 3px 5px}
+.content h3{color:#62284e;font-size:15px}
+p.bullet{background:url(../../g/jobs/link.png) no-repeat 0 5px;padding-left:14px;margin:0}
+p.bullet a{color:#62284e;text-decoration:none;font-weight:bold}
+p.bullet a:hover{text-decoration:underline}
+.jobInfokader{width:240px;background:#f2f7f6;margin-bottom:12px;padding:14px;border:1px solid #e4ebe9}
+.jobInfokader img{float:right;margin:10px 0 5px 10px}
+.jobInfokader h3{font-size:14px}
+#jobIndex{clear:both;overflow:hidden}
+#jobContent{float:left;width:552px}
+#jobOverview{float:none;width:auto!important;padding:10px 14px;border:1px solid #e4ebe9;overflow:hidden}
+.small #jobOverview{float:none;width:auto}
+#jobOverview hr{clear:both;height:0;border:0;border-bottom:1px dotted #e4ebe9;margin:0 0 12px}
+#jobOverview h4,#jobOverview h4 a{color:#028ed7;font-size:13px}
+#jobOverview h4 .jobcount{color:#8c8c8c;font-weight:normal;font-size:12px}
+#jobOverview ul{margin:0 0 15px 14px;padding:0;list-style:none;float:left;width:160px;font-size:11px}
+.small #jobOverview ul{width:136px}
+#jobOverview ul li a{color:#414141}
+#jobOverview ul li .jobcount{color:#8c8c8c}
+.nvb{padding:10px 14px}
+.nvb a{color:#4285c5;font-weight:bold}
+.sidebar .nvb{padding:0 20px;text-align:center}
+#jobDescription{padding:10px 14px;border:1px solid #e4ebe9;position:relative;background:#fff;zoom:1;overflow:hidden}
+#jobDescription h4{color:#6A1C30;border-bottom:1px solid #E6E6E6;padding-bottom:10px}
+#vacatureContent{overflow:auto;overflow-y:hidden}
+#vacatureContent .MsoNormal{margin-right:0!important}
+#vacatureContent p.MsoNormal{margin:0 0 10px!important}
+#vacatureContent h1,#vacatureContent h2{white-space:normal}
+#columnSizer .content{overflow:visible}
+#sizer{position:absolute;right:0;top:0;width:40px;height:600px;background:url(../../g/jobs/oversize.png) no-repeat 0 -38px;cursor:pointer}
+#sizer:hover{background-position:-40px -38px}
+.overSize{position:relative}
+.overSize #jobDescription{position:absolute}
+.overSize #sizer{height:38px;background-position:0 0}
+.overSize #sizer:hover{background-position:-40px 0}
+#jobSidebar{float:left;margin-left:12px;width:274px}
+#topjobs{padding:10px 11px;margin-bottom:12px;border:1px solid #e4ebe9}
+#topjobs h3{margin-left:8px}
+#topjobs ul{margin:0 0 10px;padding:0;list-style:none}
+#topjobs ul li{font-size:11px;padding:5px 7px;border:1px solid #fff}
+#topjobs ul li.odd{background:#eaf8d1;border-color:#d6e2ad}
+#topjobs p{color:#646464;margin:0;line-height:19px}
+#topjobs p,#topjobs p a{color:#646464}
+#topjobs p.jobtitle a{color:#38a801;font-weight:bold}
+div.simplejoblist{padding:10px 11px;margin-bottom:12px;border:1px solid #e4ebe9}
+div.simplejoblist ul{margin:0 0 10px;padding:0;list-style:none}
+div.simplejoblist ul li{font-size:11px;padding:5px 7px;border:1px solid #fff}
+div.simplejoblist ul li.odd{background:#F2F7F6;border-color:#E4EBE9}
+div.simplejoblist p{color:#646464;margin:0;line-height:19px}
+div.simplejoblist p,div.simplejoblist p a{color:#646464}
+div.simplejoblist p.jobtitle a{color:#00a9ea;font-weight:bold}
+div.simplejoblist span.jobExpired{color:#ed053e;font-weight:bold}
+.vacatureInfo{background:#deebe8 url(../../g/searchbox/bg.gif) repeat-x;padding:8px 14px;color:#4b4b4b;border:1px solid #e4ebe9}
+.content .vacatureInfo{margin-bottom:16px}
+.vacatureInfo table{width:100%}
+.vacatureInfo table th{text-align:left;vertical-align:top;width:70px}
+.vacatureInfo table th h4{color:#6a1c30}
+.vacatureInfoBottom{background:#f2f7f6;padding:8px 14px;color:#646464;margin:15px 0 16px;border:1px solid #e4ebe9}
+.vacatureInfoBottom span{padding-right:15px}
+.vacatureInfoBottom a{text-decoration:none}
+.vacatureInfoBottom img{vertical-align:middle;margin-right:2px}
+div.storedsearchbox{width:380px;float:right}
+div.storedjobsbox{width:380px;float:left}
+.manageDelete{font-size:11px;font-weight:bold;cursor:pointer}
+.manageDelete img{vertical-align:top}
+#forumlinks h3{margin:0;padding:6px 10px;height:19px;background:#81807f url(../../g/if/v2/table_headers.png) repeat-x 0 -31px;overflow:hidden;border-top-left-radius:4px;-moz-border-radius-topleft:4px;-webkit-border-top-left-radius:4px;border-top-right-radius:4px;-moz-border-radius-topright:4px;-webkit-border-top-right-radius:4px}
+#forumlinks h3,#forumlinks h3 a{color:#f5f5f5}
+#forumlinks h3 small{font-size:12px;font-weight:normal}
+#forumlinks table{width:100%;table-layout:fixed;font-size:11px;padding:0 1px;background-color:#f4f4f3;border:1px solid #e1e1df;border-top:0;border-bottom-left-radius:4px;-moz-border-radius-bottomleft:4px;-webkit-border-bottom-left-radius:4px;border-bottom-right-radius:4px;-moz-border-radius-bottomright:4px;-webkit-border-bottom-right-radius:4px}
+#forumlinks table td{background:#f1f1ef;border-top:1px solid #f6f6f5;border-bottom:1px solid #dcdcda;padding:5px 4px 4px;font-size:11px;vertical-align:top;line-height:20px}
+#forumlinks table td,#forumlinks table td a{color:#414141}
+#forumlinks td.replies{color:#787878;text-align:right;padding-right:4px}
+#forumlinks table tr.last td{border-bottom:1px solid #f4f4f3}
+table.joblist{width:100%;table-layout:fixed;border-spacing:0 4px}
+table.joblist th,table.joblist td{color:#3f5c5f;padding:4px;vertical-align:top}
+table.joblist th a,table.joblist td a{color:#3f5c5f}
+table.joblist th{text-align:left;font-weight:bold}
+table.joblist thead th{background:#deebe8 url(../../g/searchbox/bg.gif) repeat-x;border-color:#c1d0cc;border-width:1px 0;border-style:solid}
+table.joblist tr.odd td{padding-top:0;padding-bottom:0}
+table.joblist tbody tr.even td{background:#f2f7f6;border-color:#e4ebe9;border-width:1px 0;border-style:solid}
+table.joblist tbody tr.spotlight td{background:#eaf8d1;border-color:#d6e2ad;border-width:1px 0;border-style:solid}
+table.joblist th.first,table.joblist td.first{padding-left:15px}
+table.joblist th.logo,table.joblist td.logo{padding-left:4px}
+table.joblist thead th.first,table.joblist tbody tr.even td.first,table.joblist tbody tr.spotlight td.first{border-left-width:1px;border-top-left-radius:4px;-moz-border-radius-topleft:4px;-webkit-border-top-left-radius:4px;border-bottom-left-radius:4px;-moz-border-radius-bottomleft:4px;-webkit-border-bottom-left-radius:4px}
+table.joblist thead th.last,table.joblist tbody tr.even td.last,table.joblist tbody tr.spotlight td.last{border-right-width:1px;border-top-right-radius:4px;-moz-border-radius-topright:4px;-webkit-border-top-right-radius:4px;border-bottom-right-radius:4px;-moz-border-radius-bottomright:4px;-webkit-border-bottom-right-radius:4px}
+table.joblist p{font-weight:bold;margin:6px 0 10px}
+table.joblist p.secundary{font-size:11px;margin-top:0;margin-bottom:4px}
+table.joblist th p{margin-bottom:6px;margin-top:4px}
+table.joblist td p.secundary{color:#646464;font-weight:normal}
+table.joblist a.titleLink{color:#0095e3;font-weight:bold}
+table.joblist tr.spotlight a.titleLink{color:#38a801}
+#headerLogo{float:left;margin-right:8px;border-color:#e4ebe9}
+.companyName a{text-decoration:none;font-size:14px}
+.companyName{padding-bottom:25px}
+#jobSearch,#jobSearch .jobSearchItemContentText{overflow:hidden}
+#jobSearch .jobSearchItem{margin-bottom:9px;border-right:1px solid #c1d0cc;border-bottom:1px solid #c1d0cc}
+#jobSearch .jobSearchItemContent{padding:5px 9px;padding-top:0;background:#f2f7f6;border:1px solid #fff}
+#jobSearch .jobSearchItemContentText{padding-bottom:4px}
+#jobSearch .jobSearchItem label{display:block;color:#62284e;font-weight:bold;margin-top:6px;margin-bottom:5px}
+#jobSearch .jobSearchItem label.inline{display:inline;color:#3c3c3c;margin:0;font-weight:normal}
+#jobSearch.jsEnabled .jobSearchItem label.show,#jobSearch.jsEnabled .jobSearchItem label.hide{background:url(../../g/jobs/plus.png) no-repeat 0 3px;padding-left:14px;margin-bottom:0;cursor:pointer}
+#jobSearch.jsEnabled .jobSearchItem label.show{background-image:url(../../g/jobs/min.png);margin-bottom:4px}
+#jobSearch.jsEnabled .jobSearchItem label.hide+div.jobSearchItemContentText{display:none}
+#jobSearch .storeItem{display:none}
+#jobSearch.jsEnabled .storeItem{display:block}
+#jobSearch.jsEnabled .storeItem label.show,#jobSearch.jsEnabled .storeItem label.hide{margin-top:5px;padding-left:22px;line-height:16px;background:url(../../g/jobs/storesearch.gif) no-repeat;color:#3f5c5f}
+#jobSearch.jsEnabled .storeItem label.show{margin-bottom:8px}
+#jobSearch.jsEnabled .storeItem label.show:hover,#jobSearch.jsEnabled .storeItem label.hide:hover{text-decoration:underline}
+#jobSearch .jobSearchItem .currentSelection{padding:5px 0 0 10px;color:#646464;font-size:11px}
+#jobSearch.jsEnabled .jobSearchItem label.show+.jobSearchItemContentText+.currentSelection{display:none}
+.sidebar .section{line-height:18px;margin-bottom:19px}
+.sidebar .section h4{color:#62284e}
+.sidebar .section h4.sectionhead{color:#6e6e6e;margin-bottom:10px}
+.sidebar .section .bullet{font-size:12px}
+.sidebar .section ul{margin-bottom:10px}
+.sidebar .relatedArticles span.date{display:none}
+.pageIndex{font-size:12px}
+.pageIndex .pageDistribution b{color:#1f8b82}
+.small .sidebar .section{font-size:12px;color:#3c3c3c;padding:10px 14px 0;border:1px solid #e4ebe9;margin-bottom:13px}
+.small .sidebar .section div.hr{display:none}
+.sidebar #jobSearch{margin-top:39px;height:auto;padding:8px 7px 10px;line-height:normal}
+.sidebar #jobSearch h4{color:#3f5c5f;font-size:12px}
+.sidebar #jobSearch input.submitGreen{display:block;margin:0 auto}
+.small .sidebar #jobSearch .jobSearchItem label{margin-top:6px}
+.small .sidebar #jobSearch .jobSearchItemContent{padding-bottom:6px}
+.small .sidebar #jobSearch .storeItem{width:200px;float:left;margin:0 10px 0 0}
+.small .sidebar #jobSearch input.submitGreen{background-image:url(../../g/form/buttons_submit_large.png);height:29px;margin:0}
+.small .sidebar #jobSearch input.submitGreen:hover{background-position:0 -29px}
+#jobsPopup{width:380px;visibility:hidden;position:absolute;border:1px solid #373737;background-color:#7b7b7b;padding:1px;z-index:50}
+.simplePopupContent{background-color:#373737;padding:1px;color:#cdcdcd;font-size:11px}
+.simplePopup h4{margin:0;padding:3px;display:block;background-color:#4b4b4b;font-size:11px;font-weight:bold;margin-bottom:4px;color:#cdcdcd}
+.simplePopupContent table{font-size:15px;max-width:370px;margin:0 10px}
+.simplePopupContent th{font-weight:bold;text-align:left;width:50%;padding:3px 0}
+.simplePopupContent th,.simplePopupContent td{border-top:1px solid #4b4b4b;color:#cdcdcd;font-size:11px}
+.simplePopupContent th.first,.simplePopupContent td.first{border-top:0}
+.simplePopupContent td{font-size:11px;color:#afafaf;padding:3px 0;vertical-align:top}
+.simplePopupContent td.label{color:#cdcdcd;padding-right:9px}
+.simplePopupContent .closeButton{float:right;width:11px;height:11px;border:0;padding:3px;margin-right:5px;margin-top:1px;cursor:pointer}
+.simplePopup a,.simplePopup a:visited{color:#afafaf;text-decoration:none}
+.simplePopup a:hover{color:#c0ff00;text-decoration:underline}
+.simplePopup p{margin:10px 5px}
+#jobSearch input,#jobSearch select{border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}
+.jobInfokader,#jobSearch,#jobOverview,#jobDescription,#topjobs,#topjobs ul li,.simplejoblist,.simplejoblist ul li,.vacatureInfo,.vacatureInfoBottom,#jobSearch .jobSearchItem,#jobSearch .jobSearchItemContent,.small .sidebar .section{border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px}
+span.applyLink:hover,.vacatureInfoBottom a:hover{cursor:pointer;color:#ed053e;text-decoration:underline}
+.jobsExternalWebsite{border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;border:1px solid #E4EBE9;padding:8px 14px}
+.jobsExternalWebsite p{margin-bottom:10px}
+.jobsApplyButtonContainer{padding-top:15px;padding-left:175px}
+.jobsApplyButton,.jobsApplyButtonSmall{background:url(../../g/jobs/button_large.png) no-repeat 0 0;display:block;width:240px;height:29px;padding-top:10px;color:#fff;font-weight:bold;font-size:14px;text-align:center;text-decoration:none}
+.jobsApplyButtonSmall{background:url(../../g/jobs/button_small.png) no-repeat 0 0;width:210px}
+.jobsApplyButton:hover,.jobsApplyButtonSmall:hover{background-position:0 -39px;color:#fff;text-decoration:none}
